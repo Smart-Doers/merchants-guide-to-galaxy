@@ -8,17 +8,9 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 /**
-//glob is I
-//prok is V
-//prish is X
-//tegj is L
-//glob glob Silver is 34 Credits
-//glob prok Gold is 57800 Credits
-//presh presh Iron is 3910 Credits
-//how many Credits is glob prok Silver ?
-//how many Credits is glob prok Gold ?
-//how many Credits is glob prok Iron ?
- **/
+*
+*
+**/
 public class MerchantGalaxyController {
 
     public static Map<Character, Integer> ROMAN_VALUES_MAP = new HashMap();
@@ -66,18 +58,12 @@ public class MerchantGalaxyController {
                     break;
                 }
             }
-//            System.out.println(EXCHANGE_VALUES_MAP);
-//            if(!PER_VALUE_MAP.isEmpty()){
-//                System.out.println(PER_VALUE_MAP);
-//            }
         }
 
     }
 
     public static void main(String[] args) throws Exception {
         startBusinessWithGalaxyGuys();
-//        String inputValue = "XX";
-//        System.out.println(InputParserUtil.getNumeralValue(inputValue,ROMAN_VALUES_MAP,ALL_CONSTRAINTS.get(0)));
     }
 
 }
